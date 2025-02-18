@@ -1,6 +1,6 @@
 def dfs(start):
     Visited[start] = True
-    print(start)
+    print(start, end=' ')
     for v in V[start]:
         if not Visited[v]:
             dfs(v)
